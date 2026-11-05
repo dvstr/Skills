@@ -1,0 +1,4 @@
+interface:
+  display_name: "PRD Creator"
+  short_description: "Interview and produce a PRD from your template"
+  default_prompt: "Conduct a discovery interview and create a PRD using references/prd-en-for-skill.md and references/prd-guide-for-skill.md, resolved relative to the directory containing SKILL.md, not the working directory. Honor the user's explicit output destination, resolving relative destinations against the established active project root; otherwise use documents/PRD/ under that root. Ask if the target project cannot be determined. Do not write generated PRDs inside the skill folder unless explicitly requested. Keep only business/product/user details; exclude technical implementation details."
