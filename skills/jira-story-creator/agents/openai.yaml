@@ -1,0 +1,3 @@
+interface:
+  display_name: "Jira Story Creator"
+  short_description: "Draft Jira stories for developer refinement"
